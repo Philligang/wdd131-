@@ -1,0 +1,35 @@
+.title h2{
+    font-size: 20px;
+    color: #006eb6;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+}
+.content {
+    font-size: 20px;
+    text-align: left;
+    max-width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid grey;
+    line-height: 1.5;
+    padding: 50px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+footer {
+    text-align: center;
+}
+main {
+    padding-bottom: 20px;
+}
