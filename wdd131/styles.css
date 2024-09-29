@@ -1,35 +1,68 @@
-.title h2{
+body{
     font-size: 20px;
-    color: #006eb6;
-    text-decoration: underline;
-    text-decoration-color: grey;
-}
-.title {
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    white-space: nowrap;
-    text-align: center;
-}
-.content {
-    font-size: 20px;
-    text-align: left;
-    max-width: 600px;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 1px solid grey;
+    margin: 0 auto;
+    text-align: center;
+    margin: 5%;
+    border: 1px lightgray solid;
+}
+
+
+#list-title{
+    font-style: italic;
+}
+#main-page{
+    margin: 3% 15% 2% 15%;
+    text-align: left;
+}
+
+.main-content{
+    margin: 5%;
     line-height: 1.5;
-    padding: 50px;
 }
-.logo {
-    width: 150px;
-    height: auto;
+
+.list-container{
+    margin: 2%;
 }
-footer {
+.list-elements{
+    margin: 2%;
+}
+
+#title{
+    font-size: 250%;
+    margin-top: 10%;    
+}
+
+#title-statement{
+    color: #3370A6;
+    font-size: 110%;
+    margin: 0 auto;
+}
+.main-text{
+    margin-top: 3%;
+}
+
+.titlehead{
+    text-align: center;
+    border-bottom: 2px solid lightgrey;
+    letter-spacing: .2rem;
+}
+
+#footer{
+    margin: 5%;
+}
+
+#logo-footer{
+    width: 15%;
     text-align: center;
 }
-main {
-    padding-bottom: 20px;
+
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark h2{
+    color: #006EB6;
 }
