@@ -47,11 +47,6 @@ header hr {
   width: 100%;
   border: 2px solid #cec09b;
 }
-
-/********************************************/
-/********** Articles **********/
-/********************************************/
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -150,9 +145,6 @@ body {
   height: 1000px;
   border: 3px solid #cec09b;
 }
-
-/********************************************/
-
 footer {
   display: flex;
   flex-direction: column;
