@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Noto+Sans:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:wght@600&family=Staatliches&display=swap');
+:root {
+    --primary-color: #1B98E0;
+    --secondary-color: #59c3c3;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica,sans-serif;
+    --secondary-font: "Amatic SC";
+    }
+
+/* Global*/
+body {
+    font-family: var(--primary-font); /* Default font for the body */
+    margin: 0;
+    padding: 0;
+    background-color: var(--text-light); /* Light background color for contrast */
+    color: var(--text-dark); /* Dark text for better readability */
+}
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+}
+img {
+    max-width: 100%;
+}
+
+/* Header */
+header {
+    margin-top: 40px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid rgb(169, 169, 169);
+}
+header div {
+    display: flex;
+    justify-content: center;
+}
+header div img {
+    width: auto;
+    height: 100px;
+}
+header div h1 {
+    font-size: 60px;
+}
+header .sbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .sbar-container input {
+    border-radius: 2px;
+    width: 90%;                /* Make the form take up most of the screen width */
+    max-width: 1200px;         /* Set a maximum width to prevent it from being too wide */
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+header #search-icon {
+    width: auto;
+    height: 40px;
+}
+header button {
+    margin-right: 20px;
+    border-radius: 15px;
+}
+header button:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+/* Recipes */
+#recipe-container {
+    padding: 15px;
+}
+.recipe {
+    padding: 25px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.recipe img {
+    border-radius: 3px;
+    border: 2px solid #333;
+    height: auto;
+    width: 250px;
+}
+#recipe-info {
+    padding-left: 40px;
+}
+ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0;
+}
+li {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 3px 0;
+    display: inline-block;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+footer img {
+    padding-bottom: 15px;
+}
+footer #license {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    .recipe {
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .recipe img {
+        align-self: center;
+    }
+    #recipe-description {
+        display: none;
+    }
+    #recipe-info {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #recipe-info {
+        padding-left: 40px;
+    }
+    .recipe {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
